@@ -18,8 +18,7 @@
             './src/rpi_ws281x/ws2811.c',
             './src/rpi_ws281x/pwm.c',
             './src/rpi_ws281x/dma.c',
-            './src/rpi_ws281x/mailbox.c',
-            './src/rpi_ws281x/board_info.c'
+            './src/rpi_ws281x/mailbox.c'
           ],
           'cflags': ['-O2', '-Wall']
         },
