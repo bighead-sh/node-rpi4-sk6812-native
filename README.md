@@ -2,12 +2,14 @@
 
 install manually: 
 
-    cd node_modules
-    npm install -g node-gyp
-    git clone --recursive https://github.com/bighead-sh/node-rpi4-sk6812-native.git
-    cd node-rpi4-sk6812-native
-    npm install
-    node-gyp rebuild
+```
+cd node_modules
+npm install -g node-gyp
+git clone --recursive https://github.com/bighead-sh/node-rpi4-sk6812-native.git
+cd node-rpi4-sk6812-native
+npm install
+node-gyp rebuild
+```
 
 ### REMEMBER TO USE 
 

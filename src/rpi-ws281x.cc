@@ -17,6 +17,7 @@ using namespace v8;
 #define DEFAULT_TARGET_FREQ     800000
 #define DEFAULT_GPIO_PIN        18
 #define DEFAULT_DMANUM          10
+#define DEFAULT_LED_STRIP       SK6812W_STRIP
 
 ws2811_t ledstring;
 ws2811_channel_t
@@ -66,11 +67,13 @@ void init(const Nan::FunctionCallbackInfo<v8::Value>& info) {
   channel0data.invert = 0;
   channel0data.count = 0;
   channel0data.brightness = 255;
+  channel0data.strip_type = DEFAULT_LED_STRIP;
 
   channel1data.gpionum = 0;
   channel1data.invert = 0;
   channel1data.count = 0;
   channel1data.brightness = 255;
+  channel1data.strip_type = DEFAULT_LED_STRIP;
 
   ledstring.channel[0] = channel0data;
   ledstring.channel[1] = channel1data;
