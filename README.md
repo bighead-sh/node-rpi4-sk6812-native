@@ -40,7 +40,7 @@ hdmi_force_edid_audio=1
 
 
 ### based on pieces of code from
-@n-johnson / rpi_ws281x
-@rpi-ws281x / rpi-ws281x-python
-@beyondscreen / node-rpi-ws281x-native
-@n-johnson / node-rpi-sk6812-native
+@n-johnson / rpi_ws281x <br>
+@rpi-ws281x / rpi-ws281x-python <br>
+@beyondscreen / node-rpi-ws281x-native <br>
+@n-johnson / node-rpi-sk6812-native <br>
